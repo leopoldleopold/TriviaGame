@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+.border {
+    background-color: rgba(36, 35, 35, 0.13);
+    width: 600px;
+    height: 500px;
+    padding: 50px;
+    margin: 150px 0px 0px 500px;
+    border-radius: 36px;
+}
+.gamescreen {
+    background-color: rgba(22, 22, 22, 0.349);
+    width: 600px;
+    height: 500px;
+    margin: -5px 0px 0px 0px;
+}
+.greyscreen {
+    background-color: rgba(92, 84, 85, 0.055);
+    width: 400px;
+    height: 500px;
+    margin: initial;
+    margin: auto;
+    margin-top: -500px;
+}
+#interviewer {
+font-size: 12px;
+color: rgba(255, 255, 255, 0.534);
+margin: auto;
+padding-top: 25px;
+text-align: center;      
+}
+#name {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: green;
+    border-style: none;
+    font-size: 18px;
+}
