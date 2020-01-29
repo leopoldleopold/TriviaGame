@@ -3,8 +3,9 @@
             <head>
                 <meta charset="UTf-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-                            <title>Thank You For the Body!</title>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+                                <title>Thank You For the Body!</title>
             </head>
                 <body>
                     <div class="border">
@@ -12,8 +13,15 @@
                         </div>
                         
                         <div class="greyscreen"><div id="interviewer"></div></div>
-                        <!-- <input type="text" id="name"></input> -->
-                        <div id="instructions"></div>
+                            <div id="clock"></div>
+                            <div id="instructions"></div>
+                            <div class="questions">
+                                <div id="question"></div>
+                                <button id="true">True</button>
+                                <button id="false">False</button>
+                                <button id="start" .onclick="myGame()">Start</button>
+                                <!-- <button id="plays">Start</button>                           -->
+                            </div>
                     </div>
                     <script src="assets/javascript/app.js"></script>
                 </body>
